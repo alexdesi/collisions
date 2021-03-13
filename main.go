@@ -68,7 +68,7 @@ func main() {
 	fmt.Println(sp1)
 
 	ebiten.SetWindowSize(640, 480)
-	ebiten.SetWindowTitle("Hello, World!")
+	ebiten.SetWindowTitle("Elastic collisions of two spheres")
 	if err := ebiten.RunGame(&Game{}); err != nil {
 		log.Fatal(err)
 	}
